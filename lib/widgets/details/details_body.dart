@@ -71,7 +71,7 @@ class DetailsBody extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 28.0,
                     fontWeight: FontWeight.w600,
-                    color: kSecondaryColor,
+                    color: kPrimaryColor,
                   ),
                 ),
                 SizedBox(height: kDefaultPadding),

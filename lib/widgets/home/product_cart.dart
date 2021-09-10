@@ -92,7 +92,7 @@ class ProductCard extends StatelessWidget {
                           vertical: kDefaultPadding / 5, // 5 px padding
                         ),
                         decoration: BoxDecoration(
-                          color: kSecondaryColor,
+                          color: kPrimaryColor,
                           borderRadius: BorderRadius.circular(22),
                         ),
                         child: Text('السعر: \$${product.price}'),
