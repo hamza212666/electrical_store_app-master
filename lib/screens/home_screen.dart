@@ -7,15 +7,15 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kPrimaryColor,
-      appBar: homeAppBar(),
+      backgroundColor: Colors.grey,
+      appBar: AppBar(),
       body: HomeBody(),
     );
   }
 
   AppBar homeAppBar() {
     return AppBar(
-      elevation: 0,
+      elevation: 4,
       title: Text(
         'مرحبا بكم بمتجر الالكترونيات',
         style: GoogleFonts.getFont('Almarai'),

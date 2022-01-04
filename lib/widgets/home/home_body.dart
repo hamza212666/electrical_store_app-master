@@ -11,14 +11,14 @@ class HomeBody extends StatelessWidget {
       bottom: false,
       child: Column(
         children: [
-          SizedBox(height: kDefaultPadding / 2),
+          SizedBox(height: 20),
           Expanded(
             child: Stack(
               children: [
                 Container(
                   margin: EdgeInsets.only(top: 70.0),
                   decoration: BoxDecoration(
-                    color: kBackgroundColor,
+                    color:Colors.yellow,
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(40),
                       topRight: Radius.circular(40),
